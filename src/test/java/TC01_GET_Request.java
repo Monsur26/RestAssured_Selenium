@@ -8,15 +8,19 @@ import org.testng.annotations.Test;
 public class TC01_GET_Request {
     @Test
     void getWeatherDetail(){
-        //Specifying Base URI
+        //Specify base URI
         RestAssured.baseURI="http://restapi.demoqa.com/utilities/weather/city";
-        //Request Object
+
+        //Request object
         RequestSpecification httpRequest=RestAssured.given();
-        //Response Object
+
+        //Response object
         Response response=httpRequest.request(Method.GET,"/Hyderabad");
-        //print response
+
+        //print response in console window
+
         String responseBody=response.getBody().asString();
-        System.out.println("Response Body is : "+ responseBody);
+        System.out.println("Response Body is:" +responseBody);
         //status code validation
         int statusCode=response.getStatusCode();
         System.out.println("Status code is: "+statusCode);
