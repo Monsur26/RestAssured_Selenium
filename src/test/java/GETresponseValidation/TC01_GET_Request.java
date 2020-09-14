@@ -1,3 +1,5 @@
+package GETresponseValidation;
+
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.response.Response;
