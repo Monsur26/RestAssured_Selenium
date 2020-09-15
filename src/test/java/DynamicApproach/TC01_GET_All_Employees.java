@@ -10,11 +10,12 @@ import org.testng.annotations.Test;
 
 public class TC01_GET_All_Employees extends TestBase {
     @BeforeClass
-    void getAllEmployeeInfo() {
+    void getAllEmployeeInfo() throws InterruptedException {
         logger.info("************Started TC01_GET_All_Employees***********");
         RestAssured.baseURI = "https://dummy.restapiexample.com/api/v1";
         httpRequest = RestAssured.given();
         response = httpRequest.request(Method.GET, "/employees");
+        Thread.sleep(5000);
     }
 
     @Test

@@ -7,18 +7,17 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.json.simple.JSONObject;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import utilities.RestUtils;
 
-public class TC03_POST_New_Record extends TestBase {
+public class TC04_PUT_Update_Record extends TestBase {
     String empName = RestUtils.empName();
     String empSal = RestUtils.empSal();
     String empAge = RestUtils.empAge();
     @BeforeClass
     void putNewEmployee() throws InterruptedException {
-        RestAssured.baseURI = "https://reqres.in//api";
+        RestAssured.baseURI = "https://dummy.restapiexample.com/api/v1/employees";
         RequestSpecification httpRequest = RestAssured.given();
         JSONObject reqPARAM = new JSONObject();
         reqPARAM.put("name", empName);
@@ -26,7 +25,7 @@ public class TC03_POST_New_Record extends TestBase {
         reqPARAM.put("age", empAge);
         httpRequest.header("Content-type", "application/json");
         httpRequest.body(reqPARAM.toJSONString());
-        Response response = httpRequest.request(Method.POST, "/users");
+        Response response = httpRequest.request(Method.POST, "/update/"+empID);
         Thread.sleep(5000);
     }
     @Test
