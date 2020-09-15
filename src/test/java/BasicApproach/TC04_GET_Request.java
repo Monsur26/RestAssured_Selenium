@@ -1,4 +1,4 @@
-package GETresponseValidation;
+package BasicApproach;
 
 import io.restassured.RestAssured;
 import io.restassured.http.Header;
