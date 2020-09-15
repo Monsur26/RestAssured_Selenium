@@ -90,7 +90,7 @@
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                     <suiteXmlFiles>
-                         <suiteXmlFiles>target/test-classes/TestSuite.xml</suiteXmlFiles>
+                         <suiteXmlFiles>src/test/java/TestSuite.xml</suiteXmlFiles>
                     </suiteXmlFiles>
                 </configuration>
 

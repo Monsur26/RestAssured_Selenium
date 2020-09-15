@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EmployeeRestAPISuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="EmployeeRestAPI(failed)" verbose="0">
+    <classes>
+      <class name="DynamicApproach.TC01_GET_All_Employees">
+        <methods>
+          <include name="getAllEmployeeInfo"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="responseTime"/>
+          <include name="validateStatusCode"/>
+        </methods>
+      </class> <!-- DynamicApproach.TC01_GET_All_Employees -->
+      <class name="DynamicApproach.TC03_POST_New_Record">
+        <methods>
+          <include name="contentEncoding"/>
+          <include name="contentLength"/>
+          <include name="putNewEmployee"/>
+          <include name="responseBody"/>
+          <include name="setup"/>
+          <include name="validateStatusCode"/>
+          <include name="validateStatusLine"/>
+        </methods>
+      </class> <!-- DynamicApproach.TC03_POST_New_Record -->
+      <class name="DynamicApproach.TC02_GET_Specific_Employee_Info">
+        <methods>
+          <include name="getAllEmployeeInfo"/>
+          <include name="contentLength"/>
+          <include name="contentEncoding"/>
+          <include name="tearDown"/>
+          <include name="validateStatusCode"/>
+          <include name="setup"/>
+          <include name="responseBody"/>
+          <include name="responseTime"/>
+          <include name="validateStatusLine"/>
+        </methods>
+      </class> <!-- DynamicApproach.TC02_GET_Specific_Employee_Info -->
+      <class name="DynamicApproach.TC04_PUT_Update_Record">
+        <methods>
+          <include name="contentEncoding"/>
+          <include name="contentLength"/>
+          <include name="validateStatusCode"/>
+          <include name="responseBody"/>
+          <include name="setup"/>
+          <include name="putNewEmployee"/>
+          <include name="validateStatusLine"/>
+        </methods>
+      </class> <!-- DynamicApproach.TC04_PUT_Update_Record -->
+    </classes>
+  </test> <!-- EmployeeRestAPI(failed) -->
+</suite> <!-- Failed suite [EmployeeRestAPISuite] -->

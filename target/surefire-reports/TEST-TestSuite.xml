@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="33.676" tests="32" errors="0" skipped="0" failures="18">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Monsu\IdeaProjects\RestAssured\target\test-classes;C:\Users\Monsu\IdeaProjects\RestAssured\target\classes;C:\Users\Monsu\.m2\repository\io\rest-assured\rest-assured\3.3.0\rest-assured-3.3.0.jar;C:\Users\Monsu\.m2\repository\org\codehaus\groovy\groovy\2.4.15\groovy-2.4.15.jar;C:\Users\Monsu\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.15\groovy-xml-2.4.15.jar;C:\Users\Monsu\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Monsu\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Monsu\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Monsu\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\Monsu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Monsu\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\Monsu\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Monsu\.m2\repository\io\rest-assured\json-path\3.3.0\json-path-3.3.0.jar;C:\Users\Monsu\.m2\repository\org\codehaus\groovy\groovy-json\2.4.15\groovy-json-2.4.15.jar;C:\Users\Monsu\.m2\repository\io\rest-assured\rest-assured-common\3.3.0\rest-assured-common-3.3.0.jar;C:\Users\Monsu\.m2\repository\io\rest-assured\xml-path\3.3.0\xml-path-3.3.0.jar;C:\Users\Monsu\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\Monsu\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\Monsu\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar;C:\Users\Monsu\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\Monsu\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\Monsu\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Monsu\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Monsu\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Monsu\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Monsu\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Monsu\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\Monsu\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\Monsu\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\Monsu\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Monsu\.m2\repository\org\apache\poi\poi-ooxml\4.1.0\poi-ooxml-4.1.0.jar;C:\Users\Monsu\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.0\poi-ooxml-schemas-4.1.0.jar;C:\Users\Monsu\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Monsu\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Monsu\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Monsu\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.8.1\maven-compiler-plugin-3.8.1.jar;C:\Users\Monsu\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\Monsu\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\Monsu\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\Monsu\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\Monsu\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\Monsu\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar;C:\Users\Monsu\.m2\repository\org\codehaus\plexus\plexus-utils\2.0.4\plexus-utils-2.0.4.jar;C:\Users\Monsu\.m2\repository\org\apache\maven\maven-core\3.0\maven-core-3.0.jar;C:\Users\Monsu\.m2\repository\org\apache\maven\maven-settings\3.0\maven-settings-3.0.jar;C:\Users\Monsu\.m2\repository\org\apache\maven\maven-settings-builder\3.0\maven-settings-builder-3.0.jar;C:\Users\Monsu\.m2\repository\org\apache\maven\maven-repository-metadata\3.0\maven-repository-metadata-3.0.jar;C:\Users\Monsu\.m2\repository\org\apache\maven\maven-model-builder\3.0\maven-model-builder-3.0.jar;C:\Users\Monsu\.m2\repository\org\apache\maven\maven-aether-provider\3.0\maven-aether-provider-3.0.jar;C:\Users\Monsu\.m2\repository\org\sonatype\aether\aether-impl\1.7\aether-impl-1.7.jar;C:\Users\Monsu\.m2\repository\org\sonatype\aether\aether-spi\1.7\aether-spi-1.7.jar;C:\Users\Monsu\.m2\repository\org\sonatype\aether\aether-api\1.7\aether-api-1.7.jar;C:\Users\Monsu\.m2\repository\org\sonatype\aether\aether-util\1.7\aether-util-1.7.jar;C:\Users\Monsu\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.14\plexus-interpolation-1.14.jar;C:\Users\Monsu\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\Monsu\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\Monsu\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\Monsu\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\Monsu\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.2.1\maven-shared-utils-3.2.1.jar;C:\Users\Monsu\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\Monsu\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\Monsu\.m2\repository\org\codehaus\plexus\plexus-java\0.9.10\plexus-java-0.9.10.jar;C:\Users\Monsu\.m2\repository\org\ow2\asm\asm\6.2\asm-6.2.jar;C:\Users\Monsu\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M8\qdox-2.0-M8.jar;C:\Users\Monsu\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.8.4\plexus-compiler-api-2.8.4.jar;C:\Users\Monsu\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.8.4\plexus-compiler-manager-2.8.4.jar;C:\Users\Monsu\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.8.4\plexus-compiler-javac-2.8.4.jar;C:\Users\Monsu\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\Monsu\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Monsu\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Monsu\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Monsu\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Monsu\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Monsu\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Monsu\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Monsu\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Monsu\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.vendor" value="JetBrains s.r.o"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://www.jetbrains.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.4\jbr\bin"/>
+    <property name="sun.java.command" value="C:\Users\Monsu\AppData\Local\Temp\surefire8426453981288357915\surefirebooter11276025631111070917.jar C:\Users\Monsu\AppData\Local\Temp\surefire8426453981288357915 2020-09-15T18-35-28_086-jvmRun1 surefire12468046778847480394tmp surefire_010309558499233155905tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Monsu\IdeaProjects\RestAssured\target\test-classes;C:\Users\Monsu\IdeaProjects\RestAssured\target\classes;C:\Users\Monsu\.m2\repository\io\rest-assured\rest-assured\3.3.0\rest-assured-3.3.0.jar;C:\Users\Monsu\.m2\repository\org\codehaus\groovy\groovy\2.4.15\groovy-2.4.15.jar;C:\Users\Monsu\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.15\groovy-xml-2.4.15.jar;C:\Users\Monsu\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Monsu\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Monsu\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Monsu\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\Monsu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Monsu\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\Monsu\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Monsu\.m2\repository\io\rest-assured\json-path\3.3.0\json-path-3.3.0.jar;C:\Users\Monsu\.m2\repository\org\codehaus\groovy\groovy-json\2.4.15\groovy-json-2.4.15.jar;C:\Users\Monsu\.m2\repository\io\rest-assured\rest-assured-common\3.3.0\rest-assured-common-3.3.0.jar;C:\Users\Monsu\.m2\repository\io\rest-assured\xml-path\3.3.0\xml-path-3.3.0.jar;C:\Users\Monsu\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\Monsu\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\Monsu\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar;C:\Users\Monsu\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\Monsu\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\Monsu\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Monsu\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Monsu\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Monsu\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Monsu\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Monsu\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\Monsu\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\Monsu\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\Monsu\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Monsu\.m2\repository\org\apache\poi\poi-ooxml\4.1.0\poi-ooxml-4.1.0.jar;C:\Users\Monsu\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.0\poi-ooxml-schemas-4.1.0.jar;C:\Users\Monsu\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Monsu\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Monsu\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Monsu\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.8.1\maven-compiler-plugin-3.8.1.jar;C:\Users\Monsu\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\Monsu\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\Monsu\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\Monsu\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\Monsu\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\Monsu\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar;C:\Users\Monsu\.m2\repository\org\codehaus\plexus\plexus-utils\2.0.4\plexus-utils-2.0.4.jar;C:\Users\Monsu\.m2\repository\org\apache\maven\maven-core\3.0\maven-core-3.0.jar;C:\Users\Monsu\.m2\repository\org\apache\maven\maven-settings\3.0\maven-settings-3.0.jar;C:\Users\Monsu\.m2\repository\org\apache\maven\maven-settings-builder\3.0\maven-settings-builder-3.0.jar;C:\Users\Monsu\.m2\repository\org\apache\maven\maven-repository-metadata\3.0\maven-repository-metadata-3.0.jar;C:\Users\Monsu\.m2\repository\org\apache\maven\maven-model-builder\3.0\maven-model-builder-3.0.jar;C:\Users\Monsu\.m2\repository\org\apache\maven\maven-aether-provider\3.0\maven-aether-provider-3.0.jar;C:\Users\Monsu\.m2\repository\org\sonatype\aether\aether-impl\1.7\aether-impl-1.7.jar;C:\Users\Monsu\.m2\repository\org\sonatype\aether\aether-spi\1.7\aether-spi-1.7.jar;C:\Users\Monsu\.m2\repository\org\sonatype\aether\aether-api\1.7\aether-api-1.7.jar;C:\Users\Monsu\.m2\repository\org\sonatype\aether\aether-util\1.7\aether-util-1.7.jar;C:\Users\Monsu\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.14\plexus-interpolation-1.14.jar;C:\Users\Monsu\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\Monsu\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\Monsu\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\Monsu\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\Monsu\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.2.1\maven-shared-utils-3.2.1.jar;C:\Users\Monsu\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\Monsu\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\Monsu\.m2\repository\org\codehaus\plexus\plexus-java\0.9.10\plexus-java-0.9.10.jar;C:\Users\Monsu\.m2\repository\org\ow2\asm\asm\6.2\asm-6.2.jar;C:\Users\Monsu\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M8\qdox-2.0-M8.jar;C:\Users\Monsu\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.8.4\plexus-compiler-api-2.8.4.jar;C:\Users\Monsu\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.8.4\plexus-compiler-manager-2.8.4.jar;C:\Users\Monsu\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.8.4\plexus-compiler-javac-2.8.4.jar;C:\Users\Monsu\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\Monsu\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Monsu\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Monsu\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Monsu\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Monsu\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Monsu\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Monsu\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Monsu\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Monsu\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Monsu"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.4\jbr"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Monsu\IdeaProjects\RestAssured"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Monsu\AppData\Local\Temp\surefire8426453981288357915\surefirebooter11276025631111070917.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.6+8-b520.43"/>
+    <property name="user.name" value="Monsu"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Monsu\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://youtrack.jetbrains.com"/>
+    <property name="java.io.tmpdir" value="C:\Users\Monsu\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.6"/>
+    <property name="user.dir" value="C:\Users\Monsu\IdeaProjects\RestAssured"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="idea.version2019.3.4" value="true"/>
+    <property name="java.library.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.4\jbr\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.6\bin;C:\Program Files\Git\cmd;C:\apache-maven-3.6.3\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Monsu\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor" value="JetBrains s.r.o"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vm.version" value="11.0.6+8-b520.43"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="checkContentType" classname="DynamicApproach.TC01_GET_All_Employees" time="0.005"/>
+  <testcase name="checkCookies" classname="DynamicApproach.TC01_GET_All_Employees" time="0.001"/>
+  <testcase name="checkServerType" classname="DynamicApproach.TC01_GET_All_Employees" time="0.001"/>
+  <testcase name="contentEncoding" classname="DynamicApproach.TC01_GET_All_Employees" time="0.001"/>
+  <testcase name="contentLength" classname="DynamicApproach.TC01_GET_All_Employees" time="0.001"/>
+  <testcase name="responseBody" classname="DynamicApproach.TC01_GET_All_Employees" time="0.028"/>
+  <testcase name="responseTime" classname="DynamicApproach.TC01_GET_All_Employees" time="0.002">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at DynamicApproach.TC01_GET_All_Employees.responseTime(TC01_GET_All_Employees.java:44)
+]]></failure>
+    <system-out><![CDATA[2020-09-15 18:35:40 INFO  EmployeesRestApi:39 - ******Response Time********
+2020-09-15 18:35:40 INFO  EmployeesRestApi:41 - Response Time 4743
+2020-09-15 18:35:40 WARN  EmployeesRestApi:43 - Response Time is greater than 2000
+]]></system-out>
+  </testcase>
+  <testcase name="validateStatusCode" classname="DynamicApproach.TC01_GET_All_Employees" time="0.003">
+    <failure message="expected [200] but found [200]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [200]
+	at DynamicApproach.TC01_GET_All_Employees.validateStatusCode(TC01_GET_All_Employees.java:34)
+]]></failure>
+    <system-out><![CDATA[2020-09-15 18:35:40 INFO  EmployeesRestApi:31 - ******Status Code********
+2020-09-15 18:35:40 INFO  EmployeesRestApi:33 - Status Code is:200
+]]></system-out>
+  </testcase>
+  <testcase name="validateStatusLine" classname="DynamicApproach.TC01_GET_All_Employees" time="0.001"/>
+  <testcase name="checkContentType" classname="DynamicApproach.TC02_GET_Specific_Employee_Info" time="0.001"/>
+  <testcase name="checkCookies" classname="DynamicApproach.TC02_GET_Specific_Employee_Info" time="0.001"/>
+  <testcase name="checkServerType" classname="DynamicApproach.TC02_GET_Specific_Employee_Info" time="0.002"/>
+  <testcase name="contentEncoding" classname="DynamicApproach.TC02_GET_Specific_Employee_Info" time="0.002">
+    <failure message="expected [gzip] but found [null]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [gzip] but found [null]
+	at DynamicApproach.TC02_GET_Specific_Employee_Info.contentEncoding(TC02_GET_Specific_Employee_Info.java:74)
+]]></failure>
+    <system-out><![CDATA[2020-09-15 18:35:49 INFO  EmployeesRestApi:71 - ******Content Encoding********
+2020-09-15 18:35:49 INFO  EmployeesRestApi:73 - Content Encoding is:null
+]]></system-out>
+  </testcase>
+  <testcase name="contentLength" classname="DynamicApproach.TC02_GET_Specific_Employee_Info" time="0.002">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at DynamicApproach.TC02_GET_Specific_Employee_Info.contentLength(TC02_GET_Specific_Employee_Info.java:85)
+]]></failure>
+    <system-out><![CDATA[2020-09-15 18:35:49 INFO  EmployeesRestApi:80 - ******Content Length********
+2020-09-15 18:35:49 INFO  EmployeesRestApi:82 - Content Length is :77
+2020-09-15 18:35:49 WARN  EmployeesRestApi:84 - Content length is less than 100
+]]></system-out>
+  </testcase>
+  <testcase name="responseBody" classname="DynamicApproach.TC02_GET_Specific_Employee_Info" time="0.002">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at DynamicApproach.TC02_GET_Specific_Employee_Info.responseBody(TC02_GET_Specific_Employee_Info.java:25)
+]]></failure>
+    <system-out><![CDATA[2020-09-15 18:35:49 INFO  EmployeesRestApi:22 - ******Response Body********
+2020-09-15 18:35:49 INFO  EmployeesRestApi:24 - Response body :{"message":"Error Occured! Page Not found, contact rstapi2example@gmail.com"}
+]]></system-out>
+  </testcase>
+  <testcase name="responseTime" classname="DynamicApproach.TC02_GET_Specific_Employee_Info" time="0.001">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at DynamicApproach.TC02_GET_Specific_Employee_Info.responseTime(TC02_GET_Specific_Employee_Info.java:43)
+]]></failure>
+    <system-out><![CDATA[2020-09-15 18:35:49 INFO  EmployeesRestApi:38 - ******Response Time********
+2020-09-15 18:35:49 INFO  EmployeesRestApi:40 - Response Time 3758
+2020-09-15 18:35:49 WARN  EmployeesRestApi:42 - Response Time is greater than 2000
+]]></system-out>
+  </testcase>
+  <testcase name="validateStatusCode" classname="DynamicApproach.TC02_GET_Specific_Employee_Info" time="0.002">
+    <failure message="expected [200] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [404]
+	at DynamicApproach.TC02_GET_Specific_Employee_Info.validateStatusCode(TC02_GET_Specific_Employee_Info.java:33)
+]]></failure>
+    <system-out><![CDATA[2020-09-15 18:35:49 INFO  EmployeesRestApi:30 - ******Status Code********
+2020-09-15 18:35:49 INFO  EmployeesRestApi:32 - Status Code is:404
+]]></system-out>
+  </testcase>
+  <testcase name="validateStatusLine" classname="DynamicApproach.TC02_GET_Specific_Employee_Info" time="0.001">
+    <failure message="expected [HTTP/1.1 200 OK] but found [HTTP/1.1 404 Not Found]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 404 Not Found]
+	at DynamicApproach.TC02_GET_Specific_Employee_Info.validateStatusLine(TC02_GET_Specific_Employee_Info.java:51)
+]]></failure>
+    <system-out><![CDATA[2020-09-15 18:35:49 INFO  EmployeesRestApi:48 - ******Status Line********
+2020-09-15 18:35:49 INFO  EmployeesRestApi:50 - Status Line is:HTTP/1.1 404 Not Found
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentType" classname="DynamicApproach.TC03_POST_New_Record" time="0"/>
+  <testcase name="checkServerType" classname="DynamicApproach.TC03_POST_New_Record" time="0"/>
+  <testcase name="contentEncoding" classname="DynamicApproach.TC03_POST_New_Record" time="0">
+    <failure message="expected [gzip] but found [null]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [gzip] but found [null]
+	at DynamicApproach.TC03_POST_New_Record.contentEncoding(TC03_POST_New_Record.java:62)
+]]></failure>
+  </testcase>
+  <testcase name="contentLength" classname="DynamicApproach.TC03_POST_New_Record" time="0.001">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at DynamicApproach.TC03_POST_New_Record.contentLength(TC03_POST_New_Record.java:67)
+]]></failure>
+  </testcase>
+  <testcase name="responseBody" classname="DynamicApproach.TC03_POST_New_Record" time="0.001">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at DynamicApproach.TC03_POST_New_Record.responseBody(TC03_POST_New_Record.java:35)
+]]></failure>
+  </testcase>
+  <testcase name="validateStatusCode" classname="DynamicApproach.TC03_POST_New_Record" time="0.001">
+    <failure message="expected [200] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [404]
+	at DynamicApproach.TC03_POST_New_Record.validateStatusCode(TC03_POST_New_Record.java:42)
+]]></failure>
+  </testcase>
+  <testcase name="validateStatusLine" classname="DynamicApproach.TC03_POST_New_Record" time="0.001">
+    <failure message="expected [HTTP/1.1 200 OK] but found [HTTP/1.1 404 Not Found]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 404 Not Found]
+	at DynamicApproach.TC03_POST_New_Record.validateStatusLine(TC03_POST_New_Record.java:47)
+]]></failure>
+  </testcase>
+  <testcase name="checkContentType" classname="DynamicApproach.TC04_PUT_Update_Record" time="0"/>
+  <testcase name="checkServerType" classname="DynamicApproach.TC04_PUT_Update_Record" time="0"/>
+  <testcase name="contentEncoding" classname="DynamicApproach.TC04_PUT_Update_Record" time="0">
+    <failure message="expected [gzip] but found [null]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [gzip] but found [null]
+	at DynamicApproach.TC04_PUT_Update_Record.contentEncoding(TC04_PUT_Update_Record.java:61)
+]]></failure>
+  </testcase>
+  <testcase name="contentLength" classname="DynamicApproach.TC04_PUT_Update_Record" time="0.001">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at DynamicApproach.TC04_PUT_Update_Record.contentLength(TC04_PUT_Update_Record.java:66)
+]]></failure>
+  </testcase>
+  <testcase name="responseBody" classname="DynamicApproach.TC04_PUT_Update_Record" time="0.001">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at DynamicApproach.TC04_PUT_Update_Record.responseBody(TC04_PUT_Update_Record.java:34)
+]]></failure>
+  </testcase>
+  <testcase name="validateStatusCode" classname="DynamicApproach.TC04_PUT_Update_Record" time="0">
+    <failure message="expected [200] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [404]
+	at DynamicApproach.TC04_PUT_Update_Record.validateStatusCode(TC04_PUT_Update_Record.java:41)
+]]></failure>
+  </testcase>
+  <testcase name="validateStatusLine" classname="DynamicApproach.TC04_PUT_Update_Record" time="0">
+    <failure message="expected [HTTP/1.1 200 OK] but found [HTTP/1.1 404 Not Found]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 404 Not Found]
+	at DynamicApproach.TC04_PUT_Update_Record.validateStatusLine(TC04_PUT_Update_Record.java:46)
+]]></failure>
+  </testcase>
+</testsuite>

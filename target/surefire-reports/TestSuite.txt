@@ -1,0 +1,76 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 32, Failures: 18, Errors: 0, Skipped: 0, Time elapsed: 33.676 s <<< FAILURE! - in TestSuite
+DynamicApproach.TC01_GET_All_Employees.responseTime  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at DynamicApproach.TC01_GET_All_Employees.responseTime(TC01_GET_All_Employees.java:44)
+
+DynamicApproach.TC01_GET_All_Employees.validateStatusCode  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [200]
+	at DynamicApproach.TC01_GET_All_Employees.validateStatusCode(TC01_GET_All_Employees.java:34)
+
+DynamicApproach.TC02_GET_Specific_Employee_Info.contentEncoding  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [gzip] but found [null]
+	at DynamicApproach.TC02_GET_Specific_Employee_Info.contentEncoding(TC02_GET_Specific_Employee_Info.java:74)
+
+DynamicApproach.TC02_GET_Specific_Employee_Info.contentLength  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at DynamicApproach.TC02_GET_Specific_Employee_Info.contentLength(TC02_GET_Specific_Employee_Info.java:85)
+
+DynamicApproach.TC02_GET_Specific_Employee_Info.responseBody  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at DynamicApproach.TC02_GET_Specific_Employee_Info.responseBody(TC02_GET_Specific_Employee_Info.java:25)
+
+DynamicApproach.TC02_GET_Specific_Employee_Info.responseTime  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at DynamicApproach.TC02_GET_Specific_Employee_Info.responseTime(TC02_GET_Specific_Employee_Info.java:43)
+
+DynamicApproach.TC02_GET_Specific_Employee_Info.validateStatusCode  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at DynamicApproach.TC02_GET_Specific_Employee_Info.validateStatusCode(TC02_GET_Specific_Employee_Info.java:33)
+
+DynamicApproach.TC02_GET_Specific_Employee_Info.validateStatusLine  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 404 Not Found]
+	at DynamicApproach.TC02_GET_Specific_Employee_Info.validateStatusLine(TC02_GET_Specific_Employee_Info.java:51)
+
+DynamicApproach.TC03_POST_New_Record.contentEncoding  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [gzip] but found [null]
+	at DynamicApproach.TC03_POST_New_Record.contentEncoding(TC03_POST_New_Record.java:62)
+
+DynamicApproach.TC03_POST_New_Record.contentLength  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at DynamicApproach.TC03_POST_New_Record.contentLength(TC03_POST_New_Record.java:67)
+
+DynamicApproach.TC03_POST_New_Record.responseBody  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at DynamicApproach.TC03_POST_New_Record.responseBody(TC03_POST_New_Record.java:35)
+
+DynamicApproach.TC03_POST_New_Record.validateStatusCode  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at DynamicApproach.TC03_POST_New_Record.validateStatusCode(TC03_POST_New_Record.java:42)
+
+DynamicApproach.TC03_POST_New_Record.validateStatusLine  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 404 Not Found]
+	at DynamicApproach.TC03_POST_New_Record.validateStatusLine(TC03_POST_New_Record.java:47)
+
+DynamicApproach.TC04_PUT_Update_Record.contentEncoding  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [gzip] but found [null]
+	at DynamicApproach.TC04_PUT_Update_Record.contentEncoding(TC04_PUT_Update_Record.java:61)
+
+DynamicApproach.TC04_PUT_Update_Record.contentLength  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at DynamicApproach.TC04_PUT_Update_Record.contentLength(TC04_PUT_Update_Record.java:66)
+
+DynamicApproach.TC04_PUT_Update_Record.responseBody  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at DynamicApproach.TC04_PUT_Update_Record.responseBody(TC04_PUT_Update_Record.java:34)
+
+DynamicApproach.TC04_PUT_Update_Record.validateStatusCode  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at DynamicApproach.TC04_PUT_Update_Record.validateStatusCode(TC04_PUT_Update_Record.java:41)
+
+DynamicApproach.TC04_PUT_Update_Record.validateStatusLine  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 404 Not Found]
+	at DynamicApproach.TC04_PUT_Update_Record.validateStatusLine(TC04_PUT_Update_Record.java:46)
+
